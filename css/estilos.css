@@ -27,12 +27,16 @@ button:active {
 
 img:hover {
 	animation: spin 2s linear infinite;
+  width: 32px;
+  height: 32px;
+
  
 
 }
 
 .container {
-  width: 100%;
+  width: 50%;
+  height: 50%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -100,6 +104,8 @@ img:hover {
  
   .img-box {
     filter: grayscale(50%) blur(2px);
+    width: 30px;
+    height: 30px;
   }
   
   
@@ -109,6 +115,7 @@ img:hover {
   }
   img {
     width: 52px;
+    height: 52px;
   }
   
   @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
