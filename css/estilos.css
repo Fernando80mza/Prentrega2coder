@@ -3,7 +3,7 @@
 nav ul li a[href="/"]:before {
 	content: "🏠 ";
   font-family: "Font Awesome 5 Free";
-  font-weight: 450;
+  font-weight: 250;
   margin-right: 10px;
  }
 
@@ -36,7 +36,7 @@ img:hover {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  
+  display: flex;
   background-color: #b3aaaa;
   color: #0a0a0a;
  
@@ -115,7 +115,7 @@ img:hover {
 
 body {
 	font-family: Arial, sans-serif;
-	color: #777070;
+	color: #635e5e;
 	margin: 0;
 	padding: 0;
 }
@@ -140,7 +140,7 @@ nav ul {
 }
 
 nav ul li {
-	display: inline-block;
+	display: flex;
 	margin-right: 20px;
 }
 
@@ -256,7 +256,7 @@ footer p {
 }
 	
 	nav ul li {
-		display: block;
+		display: flex;
 		margin: 15px 0;
 	}
 
@@ -303,9 +303,9 @@ footer p {
     nav {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items:flex-start;
       height: 60px;
-      background-color: #c7c3c3;
+      background-color: #b9b3b3;
       color: #fff;
       padding: 0 20px;
     }
@@ -339,7 +339,7 @@ footer p {
       display: block;
       height: 2px;
       width: 25px;
-      background-color: #fff;
+      background-color: #c9bfbf;
       margin: 5px 0;
       transition: transform 0.3s ease-in-out;
     }
@@ -372,7 +372,7 @@ footer p {
     
     ::selection {
       background-color: #397fca;
-      color: #99b8d4;
+      color: #9fb9cf;
       opacity: 0;
       transition: opacity 0.2s ease-in-out;
     }
@@ -383,6 +383,7 @@ footer p {
 .navbar {
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 30px;
+  display: flex;
 }
 
 .navbar-brand {
@@ -398,7 +399,7 @@ footer p {
   top: 100%;
   left: 0;
   z-index: 1000;
-  display: none;
+  display: flex;
   float: left;
   min-width: 10rem;
   padding: 0.5rem 0;
